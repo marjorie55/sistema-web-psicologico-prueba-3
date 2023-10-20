@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Libre+Baskerville:ital@1&family=Quicksand:wght@300&display=swap');
+
+
+/*background inicio*/
+.hero {
+  width: 100%;
+  height: 105vh;
+  position: relative;
+  /*width: 100%;
+    height: 100vh;*/
+  /*background: rgb(45,121,9);
+    background: linear-gradient(90deg, rgba(45,121,9,1) 14%, rgba(11,195,193,1) 55%, rgba(0,212,255,1) 80%), url();*/
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/mujer-tomando-cursos-e-learning.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/mujer-tomando-cursos-e-learning.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.hero-mid h1 {
+  padding-top: 4rem !important;
+  font-size: 2rem !important;
+}
+/*PARTE DE RECURSOS*/
+
+/*background TERAPIA ONLINE*/
+.hero-mid2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/psicoterpia.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/psicoterpia.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.hero-text {
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 600;
+  /*margin-left: 50%;*/
+  background: #ffff;
+  font-family: 'Bree Serif', serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+  /* margin-left: 50%; */
+  font-weight: 800;
+  color: #ffff;
+  padding: 0.5rem 0 2rem 0;
+  font-family: 'Quicksand', sans-serif;
+  /*font-family: 'Caveat', cursive;*/
+  /*font-family: 'Libre Baskerville', serif;*/
+}
+
+.hero-text .show {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #222;
+  /* margin-left: 50%; */
+}
+.hero-text .hide {
+  display: none;
+}
+/*PARTE DE INICIO*/
+
+/*figura de la ola*/
+.hero-wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*background RECURSOS*/
+.hero-mid {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/terapia-en-lc3adnea.png"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/terapia-en-lc3adnea.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/*background CONTACTO*/
+.hero-mid3 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/5124556.jpg"); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(82, 56%, 51%, 0.555),
+      hsla(173, 100%, 35%, 0.685)
+    ),
+    url("..//assets/5124556.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+/*background RECURSOS MINDFULNESS*/
+.hero-mid4{
+  
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #00b09b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        hsla(82, 56%, 51%, 0.555),
+        hsla(173, 100%, 35%, 0.685)
+      ),
+      url("..//assets/prevencioSuicidio.png"); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        hsla(82, 56%, 51%, 0.555),
+        hsla(173, 100%, 35%, 0.685)
+      ),
+      url("..//assets/prevencioSuicidio.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .hero-text h1 {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+  }
+  .hero-text p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+  }
+  .hero-text .show {
+    padding: 0.6rem 1.1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  .hero {
+    background-size: cover;
+  }
+  .hero-mid {
+    background-size: cover;
+  }
+  .hero-mid2 {
+    background-size: cover;
+  }
+  .hero-mid3 {
+    background-size: cover;
+  }
+  .hero-mid4 {
+    background-size: cover;
+  }
+}

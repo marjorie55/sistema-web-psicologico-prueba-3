@@ -1,0 +1,141 @@
+.infoTerapia {
+  margin: 4rem 6rem;
+}
+
+.infoTerapia h1 {
+  font-size: 3rem;
+  color: #00b09b;
+}
+
+.infoTerapia h3 {
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  color: #00b09b;
+  font-size: 25px;
+}
+.infoTerapia ul {
+  list-style-position: inside;
+}
+.infoTerapia p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.first-descTera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.des-textTera {
+  width: 45%;
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+.des-textTera h2 {
+  padding-bottom: 1rem;
+  color: #00b09b;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.image img {
+  width: 49%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+/*ventajas*/
+.terapia-section {
+  padding: 20px;
+  text-align: center;
+  color: #00b09b;
+}
+
+.terapia-section h2{
+font-size: 3rem;
+}
+
+.ventajas {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.ventaja {
+  width: 40%; /* Ajusta el ancho de las columnas */
+  margin: 0 3.5%; 
+  margin-left: 95px;
+  margin-right: 5px;
+  display: flex; /* Utiliza flexbox para colocar el icono al lado del párrafo */
+  align-items: center; /* Centra verticalmente el contenido */
+  text-align: center; /* Centra horizontalmente el contenido */
+  margin-bottom: 10px; /* Agrega un margen inferior entre los elementos */
+}
+
+.ventaja i {
+  font-size: 30px; /* Tamaño del icono */
+  margin-right: 10px; /* Agrega espacio a la derecha del icono */
+}
+
+.ventaja p {
+  white-space: nowrap; /* Evita que el párrafo se divida en varias líneas */
+  overflow: hidden; /* Oculta el texto que no cabe */
+  text-overflow: ellipsis; /* Agrega puntos suspensivos (...) si el texto se recorta */
+  color: #000;
+  font-size: 25px;
+}
+/*termina*/
+
+
+ @media screen and (max-width: 1024px) {
+  .infoTerapia {
+    margin: 4rem 2rem;
+  }
+  .first-descTera {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+
+  .des-textTera {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  image img {
+    height: 250px;
+  }
+  .infoTerapia h1 {
+    margin-top: 15px;
+    font-size: 2rem;
+  }
+  .infoTerapia p {
+    text-align: justify;
+  }
+  .terapia-section h2{
+    font-size: 2rem;
+    }
+  .ventaja p {
+    font-size: 14px;
+  }
+  .ventaja {
+    width: 50%; /* Reduzco el ancho de las columnas para que se ajusten mejor en pantallas pequeñas */
+    margin: 0 2%; /* Reduzco el margen horizontal */
+    margin-left: 0; /* Elimino el margen izquierdo */
+    margin-right: 0; /* Elimino el margen derecho */
+    margin-bottom: 5px;
+  }
+}  

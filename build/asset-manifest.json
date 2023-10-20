@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7a7f84cc.css",
+    "main.js": "/static/js/main.836576b2.js",
+    "static/media/mujer-tomando-cursos-e-learning.jpg": "/static/media/mujer-tomando-cursos-e-learning.3c86ae223680ba767a09.jpg",
+    "static/media/terapiaonlineee.jpg": "/static/media/terapiaonlineee.bf69dc102595b5b80cf5.jpg",
+    "static/media/terapiaonline22.jpg": "/static/media/terapiaonline22.b8e419aa353f41e6b2a4.jpg",
+    "static/media/RecursosMindfulness.pdf": "/static/media/RecursosMindfulness.0493dae95f28bece9e69.pdf",
+    "static/media/psicoterpia.jpg": "/static/media/psicoterpia.0dc77447918c09d975c9.jpg",
+    "static/media/guiasdeautoayuda.pdf": "/static/media/guiasdeautoayuda.f301cc3b4dd1cb6f3990.pdf",
+    "static/media/7207192.jpg": "/static/media/7207192.45f601f0c64e71e21f11.jpg",
+    "static/media/whasap.png": "/static/media/whasap.0e06e6e221d3483e1e5e.png",
+    "static/media/terapia-en-lc3adnea.png": "/static/media/terapia-en-lc3adnea.39b580f0846490818dca.png",
+    "static/media/5124556.jpg": "/static/media/5124556.ee4ac29e8a1838d28ff3.jpg",
+    "static/media/prevencioSuicidio.png": "/static/media/prevencioSuicidio.7c691cf8c25e3b43db7d.png",
+    "static/media/3764135.jpg": "/static/media/3764135.d852bd8949bf7f1818d4.jpg",
+    "static/media/libro4.jpg": "/static/media/libro4.70a1dab34557041d05a3.jpg",
+    "static/media/autoayuda.jpg": "/static/media/autoayuda.fa85fe3a93900d6f24c0.jpg",
+    "static/media/libro5.jpg": "/static/media/libro5.109aa30d935022c51bb8.jpg",
+    "static/media/libro2.jpg": "/static/media/libro2.c741a721a7f749b01ba3.jpg",
+    "static/media/depresion.jpg": "/static/media/depresion.fcb70b872d8c396720d3.jpg",
+    "static/media/depresion4.png": "/static/media/depresion4.b56f794ddbf4884f887c.png",
+    "static/media/libro6.jpg": "/static/media/libro6.de8acb495a5010ac06aa.jpg",
+    "static/media/libro3.jpg": "/static/media/libro3.4f0d1339e7d49e776128.jpg",
+    "static/media/libro1.jpg": "/static/media/libro1.4b920351c8891b8bd9d5.jpg",
+    "static/media/logo_bienestar.png": "/static/media/logo_bienestar.3386dbfdf56e71e8dd9e.png",
+    "static/media/depresion.png": "/static/media/depresion.d9e933e69f012b20df08.png",
+    "static/media/depresion2.jpg": "/static/media/depresion2.bbbecbb8bea6f4f9bb6f.jpg",
+    "static/media/eua.png": "/static/media/eua.c9ac207ba33cd2d9a577.png",
+    "index.html": "/index.html",
+    "main.7a7f84cc.css.map": "/static/css/main.7a7f84cc.css.map",
+    "main.836576b2.js.map": "/static/js/main.836576b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a7f84cc.css",
+    "static/js/main.836576b2.js"
+  ]
+}

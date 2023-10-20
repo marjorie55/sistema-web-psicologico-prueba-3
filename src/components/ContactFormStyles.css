@@ -1,0 +1,105 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-left: 250px;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: bounce 1.5s infinite;
+  margin-bottom: 70px;
+}
+
+.form-container:hover {
+  box-shadow: 0 0 20px rgba(59, 253, 244, 0.767);
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #00b09b;
+}
+
+.pcontac p {
+  margin-top: -30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 25px;
+  text-align: center;
+  color: #00b09b;
+  margin-bottom: 50px;
+}
+.p2contact p{
+  margin-top: -55px;
+}
+
+/* Estilo para los TextField */
+.MuiTextField-root {
+  width: 100%; /* Cambia el ancho al 100% para llenar el contenedor */
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+
+.margenes {
+  margin-top: 10px;
+}
+
+/* Estilo para el botón */
+.MuiButton-root {
+  width: 100%; /* Cambia el ancho al 100% para llenar el contenedor */
+  margin-top: 70px;
+}
+
+/* Cambiar el color del botón cuando está enfocado */
+.MuiButton-root:hover {
+  box-shadow: 0 0 20px rgba(59, 253, 244, 0.767);
+}
+
+.image-container3 {
+  margin-left: 400px;
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.image-container3 img {
+  margin-top: -240%;
+  width: 300%;
+  height: 300%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .form-container {
+    width: 50%; /* Hacer que el formulario ocupe todo el ancho en resoluciones menores a 1024px */
+    margin-left: 50px;
+    height: 50%;
+    padding: 10px;
+  }
+  .image-container3 {
+
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .image-container3 img {
+    height: 250px;
+    
+  }
+  .pcontac p {
+    font-size: 20px;
+  }
+}

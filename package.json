@@ -1,0 +1,42 @@
+{
+  "name": "sistema-web-psicologico-prueba-3",
+  "homepage": "https://github.com/marjorie55/BienesEmocional.git",
+  "version": "1.0.0",
+  "description": "Proyecto de graduación II - prueba tres",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.11",
+    "autocomplete.js": "0.38.1",
+    "axios": "^1.5.1",
+    "loader-utils": "3.2.1",
+    "nicecode-snippets": "0.1.12",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-pdf": "^7.5.0",
+    "react-player": "^2.13.0",
+    "react-router-dom": "6.15.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "gh-pages": "^6.0.0",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages –d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

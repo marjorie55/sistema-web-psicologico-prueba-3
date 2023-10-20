@@ -1,0 +1,150 @@
+.info {
+  margin: 4rem 6rem;
+}
+
+.info h1 {
+  font-size: 3rem;
+  color: #00b09b;
+}
+
+.info h3{
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  color: #00b09b;
+  font-size: 25px;
+}
+.info ul {
+  list-style-position: inside;
+}
+.info p{
+  font-size: 20px;
+}
+.first-desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.first-desc-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+} 
+
+.des-text {
+  width: 45%;
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+.des-text h2 {
+  padding-bottom: 1rem;
+  color: #00b09b;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.image img {
+  width: 49%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.image img:nth-child(2) {
+  position: absolute;
+  top: -10%;
+  right: 0;
+}
+
+/* Estilo para la lista */
+.styled-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+ /* flex-direction:unset;*/
+ flex-wrap: wrap; /* Añade un wrap para que los elementos se ajusten automáticamente */
+  gap: 5px; /* Espacio vertical entre elementos de la lista */
+}
+
+/* Estilo para cada elemento de la lista */
+.styled-list-item {
+  background-color: #ffffff; /* Color de fondo */
+  border: 1px solid #00b09b; /* Borde */
+  padding: 5px; /* Espaciado interno */
+  border-radius: 5px; /* Borde redondeado */
+  font-size: 19px; /* Tamaño de fuente */
+  color: #000;
+  margin-bottom: 5px; /* Espacio entre elementos */
+  flex: 1; /* Hace que los elementos se expandan de manera uniforme en la fila */
+  min-width: calc(33.33% - 10px); /* Asegura que haya tres elementos por fila en pantallas grandes */
+}
+
+/*boton whatsaap*/
+.whatsapp-floating-button {
+  position: fixed;
+  bottom: 30px;
+  right: 45px;
+  background-color: #25d366; /* Color de fondo de WhatsApp */
+  color: #fff; /* Color del texto */
+  border-radius: 50%;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.whatsapp-floating-button:hover {
+  background-color: #128c7e; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+}
+
+.whatsapp-icon i {
+  width: 90px;
+  height: 90px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    margin: 4rem 2rem;
+  }
+  .first-desc {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2.5rem;
+  }
+  .first-desc-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 4.5rem;
+  } 
+  .des-text {
+    width: 100%;
+  }
+  .image {
+    width: 100%;
+    margin: 1.8rem 0;
+  }
+  .image img {
+    height: 250px;
+  }
+  .info h1{
+    margin-top: 15px;
+    font-size: 2rem;
+  }
+  .info p{
+    text-align: justify;
+  }
+  .styled-list-item {
+    min-width: calc(50% - 10px); /* Dos elementos por fila en pantallas medianas */
+  }
+}
